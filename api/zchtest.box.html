@@ -53,7 +53,7 @@
 <li class="toctree-l4"><a class="reference internal" href="zchtest.manager.html">zchtest.manager module</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="zchtest.html#module-contents">Module contents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="zchtest.html#module-zchtest">Module contents</a></li>
 </ul>
 </li>
 </ul>
@@ -86,8 +86,50 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="zchtest-box-module">
-<h1>zchtest.box module<a class="headerlink" href="#zchtest-box-module" title="Link to this heading"></a></h1>
+  <section id="module-zchtest.box">
+<span id="zchtest-box-module"></span><h1>zchtest.box module<a class="headerlink" href="#module-zchtest.box" title="Link to this heading"></a></h1>
+<p>FileBox class.
+A class to represent a file box.
+This module provides a class to represent a file box with a name and path.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="zchtest.box.FileBox">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">zchtest.box.</span></span><span class="sig-name descname"><span class="pre">FileBox</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/zchtest/box.html#FileBox"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#zchtest.box.FileBox" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class to represent a file box.</p>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">box</span> <span class="o">=</span> <span class="n">FileBox</span><span class="p">(</span><span class="s2">&quot;example&quot;</span><span class="p">,</span> <span class="s2">&quot;/path/to/example&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">box</span><span class="o">.</span><span class="n">give_box_path</span><span class="p">()</span>
+<span class="go">&#39;/path/to/example&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">box</span><span class="o">.</span><span class="n">name</span>
+<span class="go">&#39;example&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">box</span><span class="o">.</span><span class="n">path</span>
+<span class="go">&#39;/path/to/example&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">box</span><span class="o">.</span><span class="n">give_box_path</span><span class="p">()</span>
+<span class="go">&#39;/path/to/example&#39;</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="zchtest.box.FileBox.give_box_path">
+<span class="sig-name descname"><span class="pre">give_box_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/zchtest/box.html#FileBox.give_box_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#zchtest.box.FileBox.give_box_path" title="Link to this definition"></a></dt>
+<dd><p>Get the path of the file box.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The path of the file box.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">box</span> <span class="o">=</span> <span class="n">FileBox</span><span class="p">(</span><span class="s2">&quot;example&quot;</span><span class="p">,</span> <span class="s2">&quot;/path/to/example&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">box</span><span class="o">.</span><span class="n">give_box_path</span><span class="p">()</span>
+<span class="go">&#39;/path/to/example&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
 </section>
 
 
