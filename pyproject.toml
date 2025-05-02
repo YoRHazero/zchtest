@@ -13,7 +13,6 @@ name = "zchtest"
 version = "0.1.0"
 description = "A simple ZCH test package"
 readme = "README.md"
-readme-type = "markdown"
 authors = [
     { name = "ZCH", email = "zchao@icrr.u-tokyo.ac.jp" },
 ]

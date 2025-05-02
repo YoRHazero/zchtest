@@ -1,0 +1,22 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distutils stuff:
+build/
+*.egg-info/
+dist/
+
+# Editable installation
+*.egg
+
+# Virtual environment
+.venv/
+.env/
+
+# IDE / editor specific files
+.vscode/
+.idea/
+
