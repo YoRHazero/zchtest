@@ -1,4 +1,8 @@
-
+"""
+FileBox class
+A class to represent a file box.
+This module provides a class to represent a file box with a name and path.
+"""
 
 class FileBox:
     """

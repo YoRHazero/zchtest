@@ -1,3 +1,8 @@
+"""
+zchtest.manager
+A module for managing file boxes in the zchtest package.
+This module provides a function to get the base name of a file box.
+"""
 import os
 from .box import FileBox
 
