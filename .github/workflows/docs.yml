@@ -27,6 +27,11 @@ jobs:
               python -m pip install --upgrade pip
               pip install sphinx sphinx-rtd-theme sphinx-autodoc-typehints
 
+          - name: Install this project (for autodoc)
+            run: |
+                cd ${{ github.workspace }}
+                pip install -e .
+
           - name: Build documentation
             working-directory: docs
             run: make html
